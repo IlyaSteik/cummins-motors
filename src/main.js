@@ -7,8 +7,6 @@ import './assets/css/main.css';
 import './assets/css/mobile.css';
 
 import Tabbar from "./panels/tab-bar/tab-bar";
-import Header from "./panels/header/header";
-import Content from "./panels/content/content";
 import {
     api,
     apiPost,
