@@ -1,0 +1,42 @@
+.content-mailing-groups > .table > .table-in > *:not(.edit-data) > *:not(:first-child):not(:last-child),
+.content-mailing-groups > .table > .table-header > * {
+    margin-left: 30px;
+}
+
+.content-mailing-groups > .table > .table-header > :nth-child(1) {
+    margin-left: calc(36px + 30px);
+    width: 4.5%;
+}
+
+.content-mailing-groups > .table > .table-in > *:not(.edit-data) > :nth-child(2) {
+    width: 4.5%;
+}
+
+.content-mailing-groups > .table > .table-header > :nth-child(2) {
+    width: 19.5%;
+}
+
+.content-mailing-groups > .table > .table-in > *:not(.edit-data) > :nth-child(3) {
+    width: 19.5%;
+}
+
+.content-mailing-groups > .table > .table-header > :nth-child(3) {
+    width: 23.5%;
+}
+
+.content-mailing-groups > .table > .table-in > *:not(.edit-data) > :nth-child(4) {
+    width: 23.5%;
+}
+
+.content-mailing-groups > .table > .table-header > :nth-child(4) {
+    width: 23%;
+}
+
+.content-mailing-groups > .table > .table-in > *:not(.edit-data) > :nth-child(5) {
+    width: 23%;
+}
+
+.content-mailing-groups.content-in .edit-data .flex {
+    gap: 30px;
+    align-items: end;
+}

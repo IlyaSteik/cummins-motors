@@ -1,0 +1,482 @@
+.content {
+    min-height: calc((600px + 2px) - (100px + 2px) - 15px);
+    height: calc(100% - 15px * 2);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.content > div {
+    margin: 40px;
+}
+
+h1 {
+    margin: 0 0 0 0;
+
+    font-family: 'Unbounded Medium';
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+}
+
+.content-in {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.content-in .input.search {
+    margin-top: 20px;
+}
+
+.content-in .button.add {
+    margin-top: 15px;
+}
+
+.content-in .edit-data {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.content-in > .edit-data {
+    margin-top: 30px;
+}
+
+.content-in .block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.content-in .edit-data h2 {
+    margin: 0 0 0 0;
+
+    font-family: 'Wix Madefor Display Semibold';
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    width: 100%;
+}
+
+.content-in .edit-data .description, .content-in .edit-data .hint {
+    margin: 0 0 0 0;
+
+    font-family: 'Wix Madefor Display Semibold';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+}
+
+.content-in .edit-data .hint {
+    color: var(--color_secondary);
+}
+
+.content-in .edit-data h2 > span.right {
+    margin-right: 0;
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.content-in .edit-data h2 > span > svg {
+    cursor: pointer;
+    color: #58A5FF;
+    z-index: 1;
+}
+
+.content-in .edit-data > .input {
+    width: 100%;
+}
+
+.content-in .flex {
+    width: 100%;
+    display: flex;
+}
+
+.content-in .flex.flex-stretch > * {
+    width: 100%;
+}
+
+.content-in .edit-data .grid {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+}
+
+.content-in .edit-data button {
+    max-width: 218px;
+}
+
+.content-in .edit-data button .button-in {
+    width: 100%;
+}
+
+/*
+Content Table Styles
+*/
+
+.table {
+
+}
+
+.table > .table-header {
+    display: flex;
+    margin-top: 30px;
+
+    padding: 15px 30px;
+}
+
+.table > .table-header > span {
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_secondary);
+}
+
+.table > .table-in {
+    margin-top: 5px;
+}
+
+.table > .table-in > *, .content-in .edit-data {
+    margin-top: 16px;
+    padding: 22px 30px;
+
+    outline: 3px solid var(--border_color);
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+/*#main.mobile .table > .table-in > *::before, #main.mobile .table > .table-in > *::after {
+    content: '';
+    width: 100%;
+    order: 1;
+}*/
+
+.content-in .edit-data {
+    align-items: start;
+}
+
+.table > .table-in > * > .icon {
+    width: 36px;
+    height: 36px;
+    background: var(--background_content);
+    border-radius: 36px;
+    overflow: hidden;
+}
+
+.table > .table-in > * > .number, .table > .table-in > * > .text {
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+
+.table > .table-in > * > .number {
+    color: var(--color_secondary);
+}
+
+.table > .table-in > * > .text {
+    color: var(--color_primary);
+}
+
+.table > .table-in > * > .text-url {
+    color: var(--color_accent);
+    cursor: pointer;
+}
+
+.table > .table-in > * > .text-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table > .table-in > * > .text-flex > svg {
+    cursor: pointer;
+}
+
+.table > .table-in > * > .actions {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 21px;
+
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.table > .table-in > * > .actions > * {
+    cursor: pointer;
+}
+
+.table > .table-in > * > .actions > svg {
+    min-width: 24px;
+    width: 24px;
+    max-width: 24px;
+    min-height: 24px;
+    height: 24px;
+    max-height: 24px;
+}
+
+/**/
+
+
+.content-in > .table > .table-in > * > .bottom-details {
+    position: absolute;
+    top: calc(22px + 48px + 6px);
+    left: 30px;
+    right: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-in > .table > .table-in > * > .bottom-details > .block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-in > .table > .table-in > * > .bottom-details .text {
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+}
+
+.content-in > .table > .table-in .text.text-header {
+    color: var(--color_secondary);
+}
+
+.content-in > .table > .table-in > * > .bottom-details .text.text-url {
+    color: var(--color_accent);
+    cursor: pointer;
+}
+
+.content-in > .table > .table-in > * > .bottom-details .text.text-flex {
+    display: flex;
+    gap: 8px;
+}
+
+.content-in > h2:nth-child(2) {
+    margin: 8px 0 12px 0;
+}
+
+.content-in h2 {
+    margin: 0 0 0 0;
+
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_secondary);
+}
+
+.content-in h3 {
+    margin: 0 0 0 0;
+
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_secondary);
+}
+
+.content-auth {
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-auth h1, .content-auth h2 {
+    text-align: center;
+}
+
+.content-auth h2 {
+    margin-top: 16px;
+}
+
+.content-auth .button span {
+    width: 100%;
+}
+
+.content-in .edit-data .block .content-select {
+    background: var(--background_content);
+    border-radius: 15px;
+    min-height: 90px;
+    max-height: 270px;
+    padding: 21px;
+    overflow-y: scroll;
+}
+
+.content-in .edit-data .block .content-select .table > .table-in {
+    margin-top: -10px;
+}
+
+.content-in .edit-data .block .content-select .table > .table-in > * {
+    margin-top: 10px;
+    outline: none;
+    padding: 10px 20px;
+
+    border-radius: 10px;
+    background: white;
+
+    cursor: pointer;
+}
+
+.content-in .edit-data .block .content-select {
+    background: var(--background_content);
+    border-radius: 15px;
+    min-height: 90px;
+    max-height: 270px;
+    padding: 21px;
+    overflow-y: scroll;
+}
+
+.content-in .content-groups .table > .table-in > *:not(.edit-data) > :nth-child(1) {
+    margin-right: 12px;
+}
+
+.content-in .content-groups .table > .table-in > *:not(.edit-data) > :nth-child(2) {
+    width: 5%;
+}
+
+.content-in .content-groups .table > .table-in > *:not(.edit-data) > :nth-child(3) {
+    width: 30%;
+}
+
+.content-in .content-groups .table > .table-in > *:not(.edit-data) > :nth-child(4) {
+    width: 30%;
+}
+
+.content-in .content-groups .table > .table-in > *:not(.edit-data) > :nth-child(5) {
+    width: 35%;
+}
+
+.content-in .edit-data .block .content-select .table > .table-in > *:not(.edit-data) > :last-child {
+    margin-right: 0;
+    margin-left: auto;
+    pointer-events: none;
+}
+
+.content-in .edit-data .block-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+}
+
+.content-in .table .table-in > .error,
+.content-in .edit-data .block .content-select .table > .table-in > .error {
+    background: var(--color_red);
+}
+
+.content-in .edit-data .grid > * {
+    position: relative;
+}
+
+.content-in .edit-data .grid > * > img, .content-in .edit-data .grid > * > video {
+    width: 148px;
+    border-radius: 20px;
+}
+
+.content-in .edit-data .grid > * > span {
+    height: 24px;
+    width: 24px;
+    padding: 2px;
+    border-radius: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0px;
+    left: 120px;
+
+    background: rgba(0, 0, 0, .4);
+    backdrop-filter: blur(5px);
+
+    cursor: pointer;
+
+    color: white;
+}
+
+.content-in > .table > .table-in .bottom-details > .block > .groups-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-flow: row dense;
+    gap: 12px 20px;
+}
+
+.content-in > .table > .table-in .bottom-details > .block > .groups-grid > span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-in > .table > .table-in .bottom-details > .block > .groups-grid > span > img {
+    min-width: 24px;
+    width: 24px;
+    max-width: 24px;
+    min-height: 24px;
+    height: 24px;
+    max-height: 24px;
+    border: 2px solid var(--border_color);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content-in > .table > .table-in > .Spinner {
+    width: -webkit-fill-available;
+}
+
+.content-in .edit-data .flex-select {
+    gap: 20px;
+}
+
+.content-in .edit-data .flex-select h2 {
+    width: auto;
+}
+
+.content-in .edit-data .flex-select .clickable {
+    cursor: pointer;
+
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_secondary);
+
+    text-decoration: underline;
+}

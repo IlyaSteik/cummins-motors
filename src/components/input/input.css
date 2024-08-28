@@ -1,0 +1,85 @@
+/*
+    INPUT STYLES
+*/
+
+.input > .title, .text-header-input {
+    margin: 0 0 10px 15px;
+    color: var(--color_secondary);
+}
+
+.input > .input-in, .textarea > .textarea-in {
+    display: flex;
+    align-items: center;
+
+    border: solid 2px var(--border_color);
+    border-radius: 79px;
+}
+
+.textarea > .textarea-in {
+    border-radius: 20px;
+}
+
+.input > .input-in > input,
+.textarea > .textarea-in > textarea {
+    width: 100%;
+    margin: 0 0 0 0;
+
+    border: none;
+    border-radius: inherit;
+
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+
+    padding: 14px 12px;
+}
+
+.textarea > .textarea-in > textarea {
+    resize: none;
+}
+
+.input > .input-in > input::placeholder,
+.textarea > .textarea-in > textarea::placeholder,
+.input > .title,
+.text-header-input {
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_secondary);
+}
+
+.input > .input-in > .after {
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.vkuiDateInput {
+    height: 48px;
+
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+}
+
+.vkuiDateInput .vkuiFormField__border {
+    border: solid 2px var(--border_color);
+    border-radius: 79px;
+    background: none;
+}
+
+.DateInput__with_title {
+    margin-top: 10px;
+}

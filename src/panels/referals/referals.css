@@ -1,0 +1,36 @@
+.content-in.content-referals .input {
+    width: fit-content;
+}
+
+.content-in.content-referals .flex {
+    gap: 20px;
+}
+
+.content-in.content-referals .referals {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+    max-width: calc(148px * 5);
+}
+
+.content-in.content-referals .referals > * {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+}
+
+.content-in.content-referals .referals > * > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.content-in.content-referals .referals > * > span {
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_secondary);
+}

@@ -1,0 +1,11 @@
+.content-story-poster.content-in .add-story {
+    max-width: unset;
+}
+
+.content-story-poster.content-in .flex-stretch {
+    gap: 20px;
+}
+
+.content-story-poster.content-in .text-header-input {
+    margin: -2px 0 -2px 0;
+}

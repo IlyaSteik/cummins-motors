@@ -1,0 +1,47 @@
+{
+  "name": "vk-mailing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "rimraf docs && cross-env GENERATE_SOURCEMAP=false && react-scripts build --nomaps && rimraf build/**/*.map",
+    "deploy": "npm run build && ren build docs && copy CNAME docs && surge E:\\Code\\NodeProjects\\CatApps\\vk-mailing\\docs adminbase.ru",
+    "deploy-mac": "npm run build && mv build docs && cp CNAME docs && npx surge /Users/ulyanov/Documents/GitHub/vk-mailing/docs/ adminbase.ru"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vkid/sdk": "^1.1.0",
+    "@vkontakte/icons": "^2.121.0",
+    "@vkontakte/vk-mini-apps-router": "^1.4.6",
+    "@vkontakte/vkui": "^4.42.2",
+    "axios": "^1.6.8",
+    "babel-eslint": "^10.0.3",
+    "buffer": "^6.0.3",
+    "core-js": "^3.1.4",
+    "cross-env": "^7.0.3",
+    "eruda": "^3.0.1",
+    "eslint": "^8.57.0",
+    "node-fetch": "^2.7.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.8.6 || ^17.0.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^16.8.6 || ^17.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

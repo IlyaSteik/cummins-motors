@@ -1,0 +1,223 @@
+#main.mobile .Panel__in {
+    gap: 0;
+}
+
+#main.desktop .content-right {
+    margin-left: calc(302px + 15px);
+}
+
+#main.mobile .content-right {
+    width: 100%;
+}
+
+#main.mobile .button {
+    padding: 0 6px;
+}
+
+#main.mobile .button-size-xl {
+    padding: 0 12px;
+}
+
+#root.mobile .input > .title, #root.mobile .text-header-input {
+    margin: 0 0 10px 0;
+}
+
+#main.mobile .content-in.content-contacts .flex {
+    flex-direction: column;
+}
+
+#main.mobile .content > div {
+    margin: 15px;
+}
+
+#main.mobile .table > .table-header {
+    padding: 0;
+    display: none;
+}
+
+#main.mobile .table > .table-in > * {
+    padding: 6px;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+}
+
+#main.mobile .content-in .edit-data {
+    padding: 6px;
+    gap: 12px;
+}
+
+#main.mobile .content-poster-cheats .table > .table-in > * > .actions,
+#main.mobile .content-mailing-templates .table > .table-in > * > .actions
+{
+    justify-content: start;
+}
+
+#main.mobile .table > .table-in .number {
+    display: none;
+}
+
+#main.mobile .header {
+    background: white;
+    margin-bottom: 15px;
+}
+
+#main.mobile .header > .logo {
+    margin: 18px 0 14px 15px;
+    width: 150px;
+    height: 28px;
+}
+
+#main.mobile .header > .sandwich {
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+#main.mobile .header .menu {
+    transition: all 400ms ease-in-out;
+    position: absolute;
+    top: calc(15px + 56px + 15px);
+    left: 0;
+    right: 0;
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    overflow-y: scroll;
+}
+
+#main.mobile .header .menu > *:not(#header-vk-button) {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    background: var(--background_content);
+    border-radius: 15px;
+    padding: 15px;
+}
+#main.mobile .header .menu > *:not(#header-vk-button) > :first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#main.mobile .header .menu > *:not(#header-vk-button) > :last-child {
+    /*grid-gap: 12px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+    transition: all 400ms ease-in-out;
+}
+
+#main.mobile .header .menu h2 {
+    font-family: 'Wix Madefor Display Bold';
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+
+    margin: 0 0 0 0;
+}
+
+#main.mobile .header .menu .button .button-in {
+    width: 100%;
+    text-align: center;
+}
+
+#main.mobile #header-vk-button {
+    margin: 0 0 0 0;
+}
+
+#main.mobile #header-vk-button > .header-user-info {
+    justify-content: center;
+}
+
+#main.mobile #header-vk-button > .header-user-info > .button {
+    margin-left: 12px;
+    padding: 2px 14px;
+}
+
+#main.mobile .content-mailing-groups > .table > .table-in > *:not(.edit-data) > *:not(:first-child):not(:last-child),
+#main.mobile .content-mailing-groups > .table > .table-header > * {
+    margin-left: 0;
+}
+
+#main.mobile .content-poster-groups > .table > .table-in > *:not(.edit-data) > *:not(:first-child):not(:last-child),
+#main.mobile .content-poster-groups > .table > .table-header > * {
+    margin-left: 2px;
+}
+
+#main.mobile .content-poster-groups > .table > .table-header > :nth-child(1) {
+    margin-left: 22px;
+}
+
+#main.mobile .content-poster-groups > .table > .table-in > *:not(.edit-data) > *:not(img),
+#main.mobile .content-groups > .table > .table-in > *:not(.edit-data) > *:not(img):not(.checkbox),
+#main.mobile .content-poster-cheats > .table > .table-in > *:not(.edit-data) > *,
+#main.mobile .content-mailing-groups > .table > .table-in > *:not(.edit-data) > *:not(img),
+#main.mobile .content-mailing-templates > .table > .table-in > *:not(.edit-data) > *,
+#main.mobile .content-mailing.content-select > .table > .table-in > .mailing-view > *:not(.checkbox),
+#main.mobile .content-mailing > .edit-data > :nth-child(5) > .flex > *,
+#main.mobile .content-mailing > .table > .table-in > .edit-data > :nth-child(5) > .flex > *,
+#main.mobile .content-mailing > .table > .table-in > *:not(.edit-data) > *:not(.checkbox)
+{
+    width: -webkit-fill-available;
+    max-width: 100%;
+}
+
+#main.mobile .content-poster-groups .table > .table-in > * > .actions,
+#main.mobile .content-groups > .table > .table-in > *:not(.edit-data) > .checkbox,
+#main.mobile .content-mailing-groups > .table > .table-in > * > .actions,
+#main.mobile .content-mailing.content-select > .table > .table-in > .mailing-view > .checkbox
+{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+#main.mobile .tab-bar {
+    display: none;
+}
+
+#main.mobile .content-poster > .table > .table-in > .edit-data *.block-attachment .hint {
+    display: none;
+}
+
+#main.mobile .content-poster > .table > .table-in > .edit-data > :nth-child(8),
+#main.mobile .content-mailing-templates > .table > .table-in > .edit-data > :nth-child(4) > .flex,
+#main.mobile .content-mailing-templates > .edit-data > :nth-child(4) > .flex,
+#main.mobile .content-mailing > .edit-data > :nth-child(5) > .flex,
+#main.mobile .content-mailing > .table > .table-in > .edit-data > :nth-child(5) > .flex
+{
+    flex-direction: column;
+}
+#main.mobile .content-mailing-templates > .table > .table-in > .edit-data > :nth-child(4) > .flex,
+#main.mobile .content-mailing-templates > .edit-data > :nth-child(4) > .flex,
+#main.mobile .content-mailing > .edit-data > :nth-child(5) > .flex,
+#main.mobile .content-mailing > .table > .table-in > .edit-data > :nth-child(5) > .flex
+{
+    gap: 4px;
+}
+
+#main.mobile .content-in > .table > .table-in > * > .bottom-details {
+    left: 6px;
+    right: 6px;
+    width: -webkit-fill-available;
+}
+
+#main.mobile .content-mailing > .edit-data > :nth-child(5) > .flex,
+#main.mobile .content-mailing > .table > .table-in > .edit-data > :nth-child(5) > .flex {
+    align-items: start;
+}
+
+#main.mobile .content-mailing.content-in .edit-data .flex.flex-stretch > :last-child {
+    margin-left: 0;
+}

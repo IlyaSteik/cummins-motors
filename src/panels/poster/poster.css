@@ -1,0 +1,36 @@
+.content-poster .table-in .block-attachment > .flex {
+    gap: 15px;
+}
+
+.content-poster .table-in .block-attachment > .flex svg {
+    width: 24px;
+    height: 24px;
+    color: #7F8EB6;
+
+    cursor: pointer;
+}
+
+.content-poster.content-in .edit-data button {
+    max-width: max-content;
+}
+
+.content-poster.content-in .poster-status {
+    text-align: right;
+    margin: auto 12px auto 0;
+}
+
+.content-poster.content-in .edit-data .flex-stretch {
+    gap: 20px;
+}
+
+.content-poster.content-in .edit-data .flex-stretch {
+    align-items: end;
+}
+
+.content-poster.content-in .edit-data .edit-data {
+    width: -webkit-fill-available;
+}
+
+.content-poster.content-in .edit-data .block .content-select {
+    height: 270px;
+}

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Wix Madefor Display;
+    src: url(../fonts/WixMadeforDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Wix Madefor Display Medium;
+    src: url(../fonts/WixMadeforDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: Wix Madefor Display Semibold;
+    src: url(../fonts/WixMadeforDisplay-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Wix Madefor Display Bold;
+    src: url(../fonts/WixMadeforDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: Wix Madefor Display ExtraBold;
+    src: url(../fonts/WixMadeforDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Unbounded ExtraLight;
+    src: url(../fonts/Unbounded-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Unbounded Light;
+    src: url(../fonts/Unbounded-Light.ttf);
+}
+
+@font-face {
+    font-family: Unbounded;
+    src: url(../fonts/Unbounded-Regular.ttf);
+}
+
+@font-face {
+    font-family: Unbounded Medium;
+    src: url(../fonts/Unbounded-Medium.ttf);
+}
+
+@font-face {
+    font-family: Unbounded Semibold;
+    src: url(../fonts/Unbounded-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Unbounded Bold;
+    src: url(../fonts/Unbounded-Bold.ttf);
+}
+
+@font-face {
+    font-family: Unbounded ExtraBold;
+    src: url(../fonts/Unbounded-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Unbounded Black;
+    src: url(../fonts/Unbounded-Black.ttf);
+}

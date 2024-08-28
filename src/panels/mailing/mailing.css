@@ -1,0 +1,88 @@
+.content-mailing > .table > .table-header > :nth-child(1) {
+    width: 6%;
+}
+
+.content-mailing > .table > .table-in > *:not(.edit-data) > :nth-child(1) {
+    width: 6%;
+}
+
+.content-mailing > .table > .table-header > :nth-child(2) {
+    width: 20%;
+}
+
+.content-mailing > .table > .table-in > *:not(.edit-data) > :nth-child(2) {
+    width: 20%;
+}
+
+.content-mailing > .table > .table-in > *:not(.edit-data) > :nth-child(3) {
+    width: 20%;
+}
+
+/* Вкладка "Сообщества", не влезает, выключена
+.content-mailing > .table > .table-header > :nth-child(3) {
+    width: 15%;
+}
+
+.content-mailing > .table > .table-in > *:not(.edit-data) > :nth-child(3) {
+    width: 15%;
+}
+
+.content-mailing > .table > .table-in > * > .text-flex {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.content-mailing > .table > .table-in > * > .text-flex > * {
+    min-width: 24px;
+    width: 24px;
+    max-width: 24px;
+    min-height: 24px;
+    height: 24px;
+    max-height: 24px;
+    border: 2px solid var(--border_color);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content-mailing > .table > .table-in > * > .text-flex > *:not(:first-child) {
+    margin-left: -5px;
+}
+*/
+
+.content-mailing > .table > .table-header > :nth-child(4) {
+    width: 20%;
+}
+
+.content-mailing > .table > .table-in > *:not(.edit-data) > :nth-child(4) {
+    width: 20%;
+}
+
+.content-mailing > .table > .table-header > :nth-child(5) {
+    width: calc(100% - 6% - 20% - 20%);
+}
+
+.content-mailing > .table > .table-in > *:not(.edit-data) > :nth-child(5) {
+    width: calc(100% - 6% - 20% - 20%);
+}
+
+.content-mailing > .table > .table-in > * button {
+    padding: 0 12px;
+}
+
+.content-mailing.content-in .edit-data .flex.flex-stretch > :first-child {
+    width: 40%;
+}
+
+.content-in .edit-data .flex.flex-stretch > :last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.content-mailing.content-in .edit-data .flex input {
+    height: calc(48px - 3px * 2 - 14px * 2);
+}
+
+.content-mailing.content-in .edit-data .flex.flex-stretch {
+    align-items: end;
+}

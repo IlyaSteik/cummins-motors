@@ -1,0 +1,24 @@
+.content-poster-tasks.content-in > .table > .table-in > * > .bottom-details {
+    position: unset;
+    width: 100%;
+}
+
+.content-poster-cheats > .table > .table-header > :nth-child(1) {
+    width: 5%;
+}
+
+.content-poster-cheats > .table > .table-in > *:not(.edit-data) > :nth-child(1) {
+    width: 5%;
+}
+
+.content-poster-cheats > .table > .table-header > :nth-child(2) {
+    width: 40%;
+}
+
+.content-poster-cheats > .table > .table-in > *:not(.edit-data) > :nth-child(2) {
+    width: 40%;
+}
+
+.content-poster-cheats.content-in .edit-data .flex {
+    gap: 20px;
+}

@@ -1,0 +1,9 @@
+.content-story-tasks.content-in > .table > .table-in > * > .bottom-details {
+    position: unset;
+    width: 100%;
+}
+
+.content-in > .table > .table-in > * > .bottom-details .block-url .text:not(.text-header) {
+    cursor: pointer;
+    color: var(--color_accent);
+}

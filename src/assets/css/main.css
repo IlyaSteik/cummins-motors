@@ -1,0 +1,124 @@
+body {
+    --background_content: #E8EFF8;
+    --border_color: #E2E6ED;
+    --color_primary: #202A46;
+    --color_secondary: #7F8EB6;
+    --color_accent: #58A5FF;
+    --color_red: #E64646;
+	
+	zoom: .9;
+}
+
+body[scheme='bright_light'] {
+    --background_content: #E8EFF8;
+    background: var(--background_content);
+}
+
+#root {
+    background: var(--background_content);
+}
+
+
+button {
+    background: none;
+    border: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    cursor: pointer;
+
+    user-select: none;
+}
+
+td {
+    padding: 0;
+}
+
+
+.main-block {
+    background: white;
+    border-radius: 15px;
+    /*border: solid 1px var(--border_color);*/
+}
+
+#main .Panel__in {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.header-text {
+    font-family: 'Wix Madefor Display Medium';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: var(--color_primary);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.Alert > .vkuiModalDismissButton {
+    display: none;
+}
+
+.popout_need_bot {
+    background: rgba(0, 0, 0, .9);
+}
+
+.popout_need_bot .vkuiPopoutWrapper__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.popout_need_bot .vkuiPopoutWrapper__content h1 {
+    color: white;
+    text-align: center;
+}
+
+.popout_need_bot .vkuiPopoutWrapper__content .button {
+    width: 25%;
+}
+
+.popout_need_bot .vkuiPopoutWrapper__content .button-in {
+    width: 100%;
+}
+
+a {
+    color: var(--color_accent);
+    text-decoration: none;
+}
+
+.vkuiAlert {
+    border-radius: 21px;
+    box-shadow: none;
+}
+
+.vkuiAlert__header {
+    font-family: "Wix Madefor Display Semibold";
+}
+
+.vkuiAlert__text {
+    font-family: "Wix Madefor Display Medium";
+}
+
+.vkuiAlert .vkuiButton__content {
+    font-family: "Wix Madefor Display Medium";
+    color: var(--color_accent);
+    font-size: 15px;
+}
+
+#vkui--alert--desc {
+    user-select: all;
+}
